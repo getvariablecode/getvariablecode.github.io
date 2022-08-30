@@ -1,0 +1,168 @@
+*{
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+    padding: 0;
+    margin: 0;
+    color: #353535;
+}
+
+.body{
+	background-color: #F7FAFC;
+}
+
+p, li{
+	font-size: 15px;
+	line-height: 26px;
+}
+
+nav{
+	position: fixed;
+	top: 0;
+	right: 15px;
+	left: 0;
+	background-color: #13305F;
+	z-index: 3;
+}
+
+nav *{
+	color: white;
+	font-size: 15px;
+	line-height: 21px !important;
+	font-weight: 500;
+}
+
+h1, h2, h3, .bold {
+	font-weight: 500 !important;
+}
+
+.nax *{
+	color: white !important;
+}
+
+#sidebar *{
+	text-transform: uppercase;
+	font-weight: 300 !important;
+	font-size: 12px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	color: #404040;
+	font-weight: 500 !important;
+}
+
+.sd {
+	padding-right:  -20px;
+	border-left: 1px solid #909090;
+}
+
+.inner2 *{
+	padding-bottom: 4px;
+	padding-top: 4px;
+	color: #808080;
+	font-size: 13px;
+}
+
+.page{
+	color: #707070;
+}
+
+.sd2{
+	border-left: none;
+}
+
+a{
+	color: inherit;
+}
+
+
+code{
+	font-size: 14px !important;
+	font-family: monospace;
+}
+
+
+.tb .flex:nth-child(even) {
+  background: #f2f2f2;
+}
+
+.tb .flex{
+	padding-left: 10px;
+	border-bottom: 1px solid rgba(19,48,95,.1);
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.border-b{
+	border-bottom: 1px solid rgba(19,48,95, .1);
+}
+
+.blue{
+	background-color: #13305F;
+}
+
+.smoky{
+	background-color: #C8D3DB;
+}
+
+
+.bg{
+    background-image: linear-gradient(to left, #FF453B, #FF334E);
+}
+
+footer{
+	background-color: #EDF2F7;
+}
+
+.toogle{
+	position: fixed;
+	top: 15px;
+	right: 20px;
+}
+
+.toogle *{
+	color: white !important;
+}
+
+.normal *{
+	font-weight: 400 !important;
+}
+
+
+.overview{
+	left: 0;
+	width: 70vw;
+}
+
+
+.code{
+	background-color: #F2F2F2;
+	line-height: 20px !important;
+	font-family: monospace !important;
+	font-size: 14px;
+}
+
+
+@media (max-width: 900px){
+	pre {
+		overflow-x: scroll;
+	}
+}
+
+.bod{
+	border: 5px solid #13305F;
+}
+
+.code-area{
+	white-space: pre;
+	font-family: monospace !important;
+	font-size: 14px !important;
+	padding-left: 13px;
+	padding-right: 13px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-radius: 5px;
+}
+
+.code-area txt{
+	font-size: 14px !important;
+	font-family: monospace !important;
+}
+

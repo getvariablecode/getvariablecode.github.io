@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>variable code</title>
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500&display=swap" rel="stylesheet">
+
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+	    <link rel="stylesheet" href="fancy.css">
+	    <link rel="stylesheet" href="style.css">
+
+	</head>
+
+	<body class="bg-gray-100">
+		<div>
+		    <nav class="sticky-top z-30 d-none-md" id="nav"></nav>
+			<p class="toogle text-xl d-none z-50 d-block-md" id="toogle"><i class="fas fa-bars"></i></p>		
+
+			<div id='nav2' class="d-none z-40 py-3 blue text-white nax grid-container-md sticky-top justify-between px-2">
+				<a href="index.html"><p class="text-white text-lg">Variable code</p></a>
+			</div>
+
+			<div class="sides z-20 mt-3 px-5 grid-container-md d-none">
+				<p>Topics</p>
+				<div class="pl-3 pos-relative">
+					<p class="b-1 b-solid px-4 b-red-500 b-gray-500 select-none" id="overview-toogle">Overview</p>
+					<div class="pos-absolute d-none-md overview bg-gray-100 shadow-sm" id="overview"></div>
+				</div>
+			</div>
+
+			<div class="px-20 px-10-lg px-2-md">
+				<div class="grid-container justify-between px-20 px-5-lg px-0-md">
+
+					<div class="col-2 col-10-md d-none-md col-10-md sticky-to pt-15 pt-10-md" id="sidebar"></div>
+
+
+					<!-- BASICS -->
+					<div class="col-8 col-10-md pt-4 pt-3-md">
+						<div class="grid-container">
+							<div class="col-8 col-10-md px-20 px-0-md px-10-lg pb-2">
+								
+								<h2 class="pt-5-md pt-10">The Socket standard module.</h2>
+		                        <p class="pt-4">The variable code Socket module creates network sockets with the Berkeley socket interface. The Socket module provides various objects, functions and related exceptions for building fully functioning network applications including client and server programs.</p>
+
+		                        <p class="pt-4">Notice that some your knowledge like Protocols numbers would apply in the your code as you use this module. Since in most networking cases the numbers are the same that present different protocols, socketTypes etc.</p>
+
+		                        <p class="pt-4">Trick, you can easily build your server with Variable code and a client with any programming language that supports sockets or even use the browser in this, these languages can be able to communicate. So you may raise a Browser-based application with this language Or use it as a backend language with just the sockets module although it may not be efficient for now.</p>
+
+		                        <p class="pt-4">Module is still in development but it works.</p>
+
+		                        <div class="mt-6 validation">
+		                            <div class="flex border-b">
+		                                <div class="col-4"><p class="bold">Category</p></div>
+		                                <div class="col-8"><p class="bold">Functions</p></div>
+		                            </div>
+		                            <div class="flex border-b tb-row py-1">
+		                                <div class="col-4"><p class="">Variables</p></div>
+		                                <div class="col-8 flex flex-wrap justify-start">
+		                                    <a href="#hostname"><p class="px-2">hostname!</p></a>
+		                                </div>
+		                            </div>
+		                            <div class="flex border-b tb-row py-1">
+		                                <div class="col-4"><p class="">Functions</p></div>
+		                                <div class="col-8 flex flex-wrap justify-start">
+		                                    <a href=""><p class="px-2">new_socket</p></a>
+								            <a href=""><p class="px-2">getaddr</p></a>
+								            <a href="#lastsocketError"><p class="px-2">lastsocketError</p></a>
+								            <a href="#lastblockedFail"><p class="px-2">lastblockedFail</p></a>
+								            <a href=""><p class="px-2">getprotobyname</p></a>
+								            <a href=""><p class="px-2">getservbyname</p></a>
+								            <a href=""><p class="px-2">getservbyport</p></a>
+								            <a href=""><p class="px-2">gethostbyname</p></a>
+								            <a href="#AF"><p class="px-2">AF</p></a>
+								            <a href="#SD"><p class="px-2">ST</p></a>
+								            <a href="#SD"><p class="px-2">SD</p></a>
+		                                </div>
+		                            </div>
+		                            <div class="flex border-b tb-row py-1">
+		                                <div class="col-4"><p class="">Socket object</p></div>
+		                                <div class="col-8 flex flex-wrap justify-start">
+		                                    <a href=""><p class="px-2">blocking</p></a>
+		                                    <a href=""><p class="px-2">nonblocking</p></a>
+		                                    <a href=""><p class="px-2">hostname</p></a>
+		                                    <a href=""><p class="px-2">bind</p></a>
+		                                    <a href=""><p class="px-2">connect</p></a>
+		                                    <a href=""><p class="px-2">listen</p></a>
+		                                    <a href=""><p class="px-2">accept</p></a>
+		                                    <a href=""><p class="px-2">send</p></a>
+		                                    <a href=""><p class="px-2">recv</p></a>
+		                                    <a href=""><p class="px-2">close</p></a>
+		                                    <a href=""><p class="px-2">AF</p></a>
+		                                </div>
+		                            </div>
+		                        </div>
+
+		                        <div class="pt-7" id="descr">
+
+		                        	<h3 id="hostname" class="mt-8"><span class="link pr-2"># </span> hostname</h3>
+		                        	<p class="pt-2">hostname! is a variable that already holds the <a class="ad" href="#">hostname</a> of the machine the interpreter is running on.</p>
+
+
+		                        	<h3 id="AF" class="mt-8"><span class="link pr-2"># </span> AF <span class="hd">(addressFamily)</span></h3>
+		                        	<p class="pt-2">This is an object having <a class="ad" href="#">addressFamilies</a> that are supported by the vC sockets module in the <a class="ad" href="#">new_socket</a> instance object.</p>
+		                        	<p class="mt-3">
+		                        		<span class="px-2"><a class="ad" href="#">INET</a></span>
+		                        		<span class="px-2"><a class="ad" href="#">INET6</a></span>
+		                        		<span class="px-2"><a class="ad" href="#">UNIX</a></span>
+		                        		<span class="px-2"><a class="ad" href="#">IPX</a></span>
+		                        		<span class="px-2"><a class="ad" href="#">UNSPEC</a></span>
+		                        		<span class="px-2"><a class="ad" href="#">APPLETALK</a></span>
+		                        	</p>
+
+		                        	<h3 id="ST" class="mt-8"><span class="link pr-2"># </span> ST <span class="hd">(socketType)</span></h3>
+		                        	<p class="pt-2">This is an object having <a class="ad" href="#">socketTypes</a> that are also supported by the vC sockets module in the <a class="ad" href="#">new_socket</a> instance object.</p>
+		                        	<p class="mt-3">
+		                        		<span class="px-2"><a class="ad" href="#">RDM</a></span>
+		                        		<span class="px-2"><a class="ad" href="#">RAW</a></span>
+		                        		<span class="px-2"><a class="ad" href="#">DGRAM</a></span>
+		                        		<span class="px-2"><a class="ad" href="#">STREAM</a></span>
+		                        		<span class="px-2"><a class="ad" href="#">SEQPACKET</a></span>
+		                        	</p>
+
+		                        	<h3 id="SD" class="mt-8"><span class="link pr-2"># </span> SD <span class="hd">(howToShutdown)</span></h3>
+		                        	<p class="pt-2">This is an object having the ways the socket should shutdown the connections by disabling its capabilities, they are also numbers ranging from 0 to 2 disabling socket connection power either SENDING, RECEIVING or BOTH.</p>
+		                        	<p class="mt-3">
+		                        		<span class="px-2"><a class="ad" href="#">SEND</a></span>
+		                        		<span class="px-2"><a class="ad" href="#">RECV</a></span>
+		                        		<span class="px-2"><a class="ad" href="#">BOTH</a></span>
+		                        	</p>
+
+
+		                        	<h3 id="lastsocketError" class="mt-8"><span class="link pr-2"># </span> lastsocketError</h3>
+		                        	<p class="pt-2">This function retrives the last occurred error on its time of calling from the operating system, cuts across other sockets created by the OS whether by another language or by OS itself.</p>
+		                        	<div class="code-area mt-3 overflow-y-scroll-md"><txt>string </txt> lastsocketError()</div>
+
+
+		                        	<h3 id="lastblockedFail" class="mt-8"><span class="link pr-2"># </span> lastblockedFail</h3>
+		                        	<p class="pt-2">Checks if the last called socket connection failed and yet it was <a class="ad" href="#">blocking</a> or if it reached the set <a class="ad" href="#">timeout</a> without connecting.</p>
+		                        	<div class="code-area mt-3 overflow-y-scroll-md"><txt>bool </txt> lastblockedFail()</div>
+
+
+		                        </div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<footer  id="footer"></footer>
+
+		</div>
+	
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js"></script>
+		<script type="text/javascript" src="main.js"></script>
+	</body>
+</html>

@@ -1,0 +1,177 @@
+.wood{
+	background-color: #C8D3DB;
+	border: 5px solid #13305F;
+	border-radius: 10px;
+}
+
+.wood1:hover {
+	background-color: rgb(236,239,242);
+	cursor: pointer;
+}
+
+.wood2:hover {
+	background-color: rgba(236,239,242, .5);
+	cursor: pointer;
+}
+
+
+.iron{
+	background-color: #868B92;
+	border: 5px solid #13305F;
+	border-radius: 10px;
+}
+
+.move1{
+	bottom: 20px;
+	height: 53px;
+	width: 7px;
+	left: 60%;
+	background-color: #13305F;
+	border-radius: 10px;
+	transform: rotate(45deg);
+}
+
+.move2{
+	bottom: 35px;
+	height: 33px;
+	left: 55%;
+	width: 5px;
+	background-color: #13305F;
+	border-radius: 10px;
+	transform: rotate(46deg);
+	z-index: 2;
+}
+
+.move3{
+	top: 0;
+	height: 73px;
+	right: 17px;
+	width: 6px;
+	background-color: #13305F;
+	border-radius: 10px;
+	transform: rotate(90deg);
+	z-index: 2;
+}
+
+.move4{
+	top: 10px;
+	height: 7px;
+	left: 17px;
+	width: 7px;
+	border-radius: 50%;
+	border: 3px solid #13305F;
+	z-index: 2;
+}
+
+.icon{
+	color: #13305F !important;
+	fill: #13305F !important;
+}
+
+.move5{
+	top: 40px;
+	height: 2px;
+	left: 40px;
+	width: 2px;
+	border-radius: 50%;
+	background-color: #13305F;
+	border: 2px solid #13305F;
+	z-index: 2;
+}
+
+.move6{
+	top: 0;
+	left: 30px;
+	height: 62px;
+	width: 30px;
+	border-radius: 7px;
+	transform: rotate(25deg);
+	background-color: #949B9F;
+	z-index: 1;
+}
+
+
+.iron1:hover {
+	background-color: #949B9F;
+	cursor: pointer;
+}
+
+.iron2:hover {
+	background-color: rgba(148,155,159,.5);
+	cursor: pointer;
+}
+
+.tblue{
+	color: #13305F !important;	
+}
+
+
+
+.stop1{
+	bottom: 20px;
+	height: 53px;
+	width: 7px;
+	left: 60%;
+	background-color: #ECEFF2;
+	border-radius: 10px;
+	transform: rotate(45deg);
+}
+
+.stop2{
+	bottom: 35px;
+	height: 33px;
+	left: 55%;
+	width: 5px;
+	background-color: #ECEFF2;
+	border-radius: 10px;
+	transform: rotate(46deg);
+	z-index: 2;
+}
+
+.stop3{
+	top: 0;
+	height: 73px;
+	right: 17px;
+	width: 6px;
+	background-color: #ECEFF2;
+	border-radius: 10px;
+	transform: rotate(90deg);
+	z-index: 2;
+}
+
+.stop4{
+	top: 10px;
+	height: 7px;
+	left: 17px;
+	width: 7px;
+	border-radius: 50%;
+	border: 3px solid #ECEFF2;
+	z-index: 2;
+}
+
+.icon *{
+	color: #13305F !important;
+	font-family:FontAwesome !important;
+}
+
+.stop5{
+	top: 30px;
+	height: 2px;
+	left: 47px;
+	width: 2px;
+	border-radius: 50%;
+	background-color: #ECEFF2;
+	border: 2px solid #ECEFF2;
+	z-index: 2;
+}
+
+.stop6{
+	bottom: 20px;
+	left: 10px;
+	height: 62px;
+	width: 20px;
+	border-radius: 7px;
+	transform: rotate(25deg);
+	background-color: #ECEFF2;
+	z-index: 1;
+}

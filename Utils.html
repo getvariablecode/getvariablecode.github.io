@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>variable code</title>
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500&display=swap" rel="stylesheet">
+
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+	    <link rel="stylesheet" href="fancy.css">
+	    <link rel="stylesheet" href="style.css">
+
+	</head>
+
+	<body class="bg-gray-100">
+		<div>
+		    <nav class="sticky-top z-30 d-none-md" id="nav"></nav>
+			<p class="toogle text-xl d-none z-50 d-block-md" id="toogle"><i class="fas fa-bars"></i></p>		
+
+			<div id='nav2' class="d-none z-40 py-3 blue text-white nax grid-container-md sticky-top justify-between px-2">
+				<a href="index.html"><p class="text-white text-lg">Variable code</p></a>
+			</div>
+
+			<div class="sides z-20 mt-3 px-5 grid-container-md d-none">
+				<p>Topics</p>
+				<div class="pl-3 pos-relative">
+					<p class="b-1 b-solid px-4 b-red-500 b-gray-500 select-none" id="overview-toogle">Overview</p>
+					<div class="pos-absolute d-none-md overview bg-gray-100 shadow-sm" id="overview"></div>
+				</div>
+			</div>
+
+			<div class="px-20 px-10-lg px-2-md">
+				<div class="grid-container justify-between px-20 px-5-lg px-0-md">
+
+					<div class="col-2 col-10-md d-none-md col-10-md sticky-to pt-15 pt-10-md" id="sidebar"></div>
+
+
+					<!-- BASICS -->
+					<div class="col-8 col-10-md pt-4 pt-3-md">
+						<div class="grid-container">
+							<div class="col-8 col-10-md px-20 px-0-md px-10-lg pb-2">
+								
+								<h2 class="pt-5-md pt-10">The Utils standard module.</h2>
+		                        <p class="pt-4">The Utils module is automatically imported in the vC interpreter when it starts both in interactive or execution sessions similar to the <a href="https://www.python.org">Python</a> sys module. Some languages define Objects from such a module, this one is similar to theme and it also changes datatypes.</p>
+
+		                        <p class="pt-4">Since this is an essential module, its updates are regular mostly concerning stability and efficiency.</p>
+
+		                        <div class="mt-6 validation">
+		                            <div class="flex border-b">
+		                                <div class="col-4"><p class="font-bold">Category</p></div>
+		                                <div class="col-8"><p class="font-bold">Functions</p></div>
+		                            </div>
+		                            <div class="flex border-b tb-row py-1">
+		                                <div class="col-4"><p class="">Functions</p></div>
+		                                <div class="col-8 flex flex-wrap justify-start">
+		                                    <a href=""><p class="px-2">print</p></a>
+		                                    <a href=""><p class="px-2">props</p></a>
+		                                    <a href=""><p class="px-2">iter</p></a>
+		                                    <a href=""><p class="px-2">next</p></a>
+		                                    <a href=""><p class="px-2">len</p></a>
+		                                    <a href=""><p class="px-2">range</p></a>
+		                                    <a href=""><p class="px-2">type</p></a>
+		                                    <a href=""><p class="px-2">exit</p></a>
+		                                </div>
+		                            </div>
+		                            <div class="flex border-b tb-row py-1">
+		                                <div class="col-4"><p class="">Data maniplulators</p></div>
+		                                <div class="col-8 flex flex-wrap justify-start">
+		                                    <a href=""><p class="px-2">delAttr</p></a>
+		                                    <a href=""><p class="px-2">getAttr</p></a>
+		                                    <a href=""><p class="px-2">setAttr</p></a>
+		                                </div>
+		                            </div>
+		                        </div>
+
+		                        <div class="pt-10" id="descr"></div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<footer  id="footer"></footer>
+
+		</div>
+	
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js"></script>
+		<script type="text/javascript" src="main.js"></script>
+	</body>
+</html>

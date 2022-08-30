@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>variable code</title>
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500&display=swap" rel="stylesheet">
+
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+	    <link rel="stylesheet" href="fancy.css">
+	    <link rel="stylesheet" href="style.css">
+
+	    <style type="text/css">
+	    	.fab{
+	    		color: white !important;
+	    	}
+	    </style>
+
+	</head>
+
+	<body class="bg-gray-100">
+		<div class="">
+			<nav class="sticky-top z-30 d-none-md" id="nav"></nav>
+			<p class="toogle text-xl d-none z-50 d-block-md" id="toogle"><i class="fas fa-bars"></i></p>		
+
+			<div id='nav2' class="d-none z-40 py-3 blue text-white nax grid-container-md sticky-top justify-between px-2">
+				<a href="index.html"><p class="text-white text-lg">Variable code</p></a>
+			</div>
+
+			<div class="sides z-20 mt-3 px-5 grid-container-md d-none">
+				<p>Topics</p>
+				<div class="pl-3 pos-relative">
+					<p class="b-1 b-solid px-4 b-red-500 b-gray-500 select-none" id="overview-toogle">Overview</p>
+					<div class="pos-absolute d-none-md overview bg-gray-100 shadow-sm" id="overview"></div>
+				</div>
+			</div>
+
+			<div class="px-20 px-10-lg px-2-md">
+				<div class="grid-container justify-between px-20 px-5-lg px-0-md">
+
+					<div class="col-2 col-10-md d-none-md col-10-md sticky-to pt-15 pt-10-md" id="sidebar"></div>
+
+
+					<!-- BASICS -->
+					<div class="col-8 col-10-md pt-10 pt-3-md">
+						<div class="grid-container">
+							<div class="col-8 col-10-md px-20 px-0-md px-10-lg pb-20">
+								<p class="pt-3">Am sure after a view of this page you will have half of the vC language in your hands. The syntax is very familar to the top languages the developer hopes you already know.</p>
+
+								<h2 class="pt-4" id="comments">1. comments</h2>
+								<p class="pt-2">Comments are used to explain your code or even segment work in the same file. Nowadays tools like GitHub copilot make great use of comments, so comments are provided in full swing.</p>
+
+								<div class="code rounded-sm p-2 bg-gray-100 my-3 mr-4">
+									<pre><code># hello, I am a comment
+
+# ============ GUI THREAD ===============
+def render () {
+	Gui.</code></pre>
+								</div>
+
+								<h2 class="pt-4" id="datatypes">2.datatypes</h2>
+								<p class="pt-2">Everything here is an object, your can make a class become a string, a function is still an object although each has a different type. Our tutorial is better for this lesson. But they include Strings, numbers, lists, dictionaries and classes.</p>
+
+								<div class="code rounded-sm p-2 bg-gray-100 my-3 mr-4">
+									<pre><code>strings = "hello world!", '12', 'a'
+
+boolean = true, false
+
+number = 75, -34, 0.5
+
+list = [12, 'a', 'b', 7, [1, 3]]
+
+dict = {'a': 1, 'b': 2}
+{'name': 'vC', 'versions': 1}</code></pre>
+								</div>
+
+
+								<h2 class="pt-4" id="variables">3. variables</h2>
+								<p class="pt-2">This is a true interpreter, variables hold any data they are assigned to, their data can change at anytime during runtime and that is very normal, this is what the language is built.</p>
+
+								<div class="code rounded-sm p-2 bg-gray-100 my-3 mr-4">
+									<pre><code>x = 4
+y = 5
+
+co_ordinates = (x, y)
+.... [4, 5]
+
+let name = 'Rogers'
+let country_code = 256</code></pre>
+								</div>
+
+
+
+								<h2 class="pt-4" id="functions">4. functions</h2>
+								<p class="pt-2">The biggest fundamental of a programming language are the functions. Functions in variable code use the same principle like for other languages just that they return any datatype you wish they would. They are objects with attributes and can be assigned to variables also.</p>
+
+								<div class="code rounded-sm p-2 bg-gray-100 my-3 mr-4">
+									<pre><code>def sum(x, y) {
+	ans = x + y
+	return ans
+}
+
+sum(2, 3)
+..... 5</code></pre>
+								</div>
+
+
+
+								<h2 class="pt-4">5. loop</h2>
+								<p class="pt-2">These change the control flow of the program.</p>
+
+								<h3 class="pt-4" id="while">.1 while</h3>
+								<p class="pt-2">Bases on a condition to loop its scoped code, if the condition is not satisfied, then the loop will break. You can even break manually with the break key.</p>
+
+								<div class="code rounded-sm p-2 bg-gray-100 my-3 mr-4">
+									<pre><code>count = 0
+
+while (count < 100) {
+	print(count)
+	count+=1
+}
+
+print('Loop is done running.')
+									</code></pre>
+								</div>
+
+								<h3 class="pt-4" id="for">.2 for</h3>
+								<p class="pt-2">Iterates iterable data until the last item returning it to the assigned identier that can be accessed in the scoped code.</p>
+
+								<div class="code rounded-sm p-2 bg-gray-100 my-3 mr-4">
+									<pre><code>letters = ['a', 'b', 'c', 'd']
+
+for i in letters {
+	print(i)
+}</code></pre>
+								</div>
+
+								<h3 class="pt-4">More.</h3>
+								<p class="pt-2">This cannot be all, if you need to learn more, checkout our youtube channel where you find daily content about vC.</p>
+							</div>
+							<div class="col-2"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<footer  id="footer"></footer>
+
+		</div>
+
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js"></script>
+		<script type="text/javascript" src="main.js"></script>
+	</body>
+</html>

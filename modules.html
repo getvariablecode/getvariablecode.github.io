@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>variable code</title>
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500&display=swap" rel="stylesheet">
+
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+	    <link rel="stylesheet" href="fancy.css">
+	    <link rel="stylesheet" href="style.css">
+
+	</head>
+
+	<body class="bg-gray-100">
+		<div class="">
+		    <nav class="sticky-top z-30 d-none-md" id="nav"></nav>
+			<p class="toogle text-xl d-none z-50 d-block-md" id="toogle"><i class="fas fa-bars"></i></p>		
+
+			<div id='nav2' class="d-none z-40 py-3 blue text-white nax grid-container-md sticky-top justify-between px-2">
+				<a href="index.html"><p class="text-white text-lg">Variable code</p></a>
+			</div>
+
+			<div class="sides z-20 mt-3 px-5 grid-container-md d-none">
+				<p>Topics</p>
+				<div class="pl-3 pos-relative">
+					<p class="b-1 b-solid px-4 b-red-500 b-gray-500 select-none" id="overview-toogle">Overview</p>
+					<div class="pos-absolute d-none-md overview bg-gray-100 shadow-sm" id="overview"></div>
+				</div>
+			</div>
+
+			<div class="px-20 px-10-lg px-2-md">
+				<div class="grid-container justify-between px-20 px-5-lg px-0-md">
+
+					<div class="col-2 col-10-md d-none-md col-10-md sticky-to pt-15 pt-10-md" id="sidebar"></div>
+
+
+					<!-- BASICS -->
+					<div class="col-8 col-10-md pt-10 pt-3-md">
+						<div class="grid-container">
+							<div class="col-8 col-10-md px-20 px-0-md px-10-lg pb-20">
+								<h2 class="h1 pt-4">Variable code builtin library</h2>
+								<p class="pt-3">Variable code builtin modules are built in the language, there is no need to install them via a package manager, just use the import key work to add theme to your code. </p>
+
+								<p class="pt-3">These modules are optimized, they extend the language's features, they target speed and performance and some are written entirely in <a href="https://www.dlang.org">Dlang</a> and <a href="">C</a>.</p>
+								
+		                        <p class="pt-3">These cover a wide topic, they increase the learning curve so its better to learn them via a tutorial.</p>
+
+								<div class="mt-10 tb">
+		                            <div class="flex border-b">
+		                                <div class="col-4"><p class="bold">Modules</p></div>
+		                                <div class="col-8"><p class="bold">Simple description</p></div>
+		                            </div>
+		                            <div class="flex border-b tb-row py-1">
+		                                <div class="col-4"><p class="">File</p></div>
+		                                <div class="col-8"><p class="">Handles file operations and io streams like writing to files, deleting and finding file sizes. </p></div>
+		                            </div>
+		                            <div class="flex border-b tb-row py-1">
+		                                <div class="col-4"><p class="">Path</p></div>
+		                                <div class="col-8"><p class="">Any code concerning path manuplation and folder handling is handled here.  Provides other functions like <a href="">Unix</a> cmds.</p></div>
+		                            </div>
+		                            <div class="flex border-b tb-row py-1">
+		                                <div class="col-4"><p class="">Thread</p></div>
+		                                <div class="col-8"><p class="">Creates threads to run processes concurrently or at the same time and also has functions to deal with the created threads.</p></div>
+		                            </div>
+		                            <div class="flex border-b tb-row py-1">
+		                                <div class="col-4"><p class="">Time</p></div>
+		                                <div class="col-8"><p class="">Time telling, sleep function and formating to desired output is done by this module.</p></div>
+		                            </div>
+		                            <div class="flex border-b tb-row py-1">
+		                                <div class="col-4"><p class="">Sockets</p></div>
+		                                <div class="col-8"><p class="">Provides functions for low level programming like creation of TPC, UDP etc connects to handle network operations.</p></div>
+		                            </div>
+
+		                            <div class="flex border-b tb-row py-1">
+		                                <div class="col-4"><p class="">Math</p></div>
+		                                <div class="col-8"><p class="">A simple math library with all mathematical functionality you may need. Like cos, tan etc.</p></div>
+		                            </div>
+		                            <div class="flex border-b tb-row py-1">
+		                                <div class="col-4"><p class="">Random</p></div>
+		                                <div class="col-8"><p class="">Genrates random numbers, excuvates random items from arrays, shuffles arrays and more functionality will be added.</p></div>
+		                            </div>
+		                            <div class="flex border-b tb-row py-1">
+		                                <div class="col-4"><p class="">Net</p></div>
+		                                <div class="col-8"><p class="">Uses the libcurl library to retrive and request content from internet. More similar libraries are to be provided.</p></div>
+		                            </div>
+		                            <div class="flex border-b tb-row py-1">
+		                                <div class="col-4"><p class="">Environ</p></div>
+		                                <div class="col-8"><p class="">Manuplates the vC interpreter variables like module path and commandline arguments.</p></div>
+		                            </div>
+		                        </div>
+
+		                        <h3 class="pt-5">More libraries</h3>
+								<p class="pt-2">More libraries or modules if not listed here are custom, they are developed by other developers. So there documentation is expected to be provided by them on there sites or tutorials. </p>
+
+								<p class="pt-2">You can install these modules with a package manager although ours is in development. So download the package and include in your working space or checkout more about vC configuration.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<footer  id="footer"></footer>
+
+		</div>
+
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js"></script>
+		<script type="text/javascript" src="main.js"></script>
+	</body>
+</html>
