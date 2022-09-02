@@ -1,17 +1,25 @@
+
+
 *{
 	font-family: 'M PLUS Rounded 1c', sans-serif;
-    padding: 0;
-    margin: 0;
-    color: #353535;
+	font-family: 'Overpass', sans-serif;
+  padding: 0;
+  margin: 0;
+  color: rgba(30,25,28, .87);
 }
 
 .body{
 	background-color: #F7FAFC;
 }
 
+body{
+	background-color: white !important;
+}
+
 p, li{
-	font-size: 15px;
-	line-height: 26px;
+	font-size: 17px;
+	line-height: 27px;
+	font-weight: 400 !important;
 }
 
 nav{
@@ -19,49 +27,77 @@ nav{
 	top: 0;
 	right: 15px;
 	left: 0;
-	background-color: #13305F;
 	z-index: 3;
+	background-color: white;
+	border-bottom: 1px solid #EDE9E3;
+}
+
+#nav2{
+	background-color: white;
+	border-bottom: 1px solid #EDE9E3;
 }
 
 nav *{
-	color: white;
-	font-size: 15px;
+	font-size: 16px;
 	line-height: 21px !important;
 	font-weight: 500;
 }
 
+.bb{
+	border-color: 1px solid rgb(42,48,62);
+}
+
+.bd{
+	border: 1px solid rgb(42,48,62);
+}
+
 h1, h2, h3, .bold {
 	font-weight: 500 !important;
+	color: rgba(25, 27, 28, 1.0);
 }
 
-.nax *{
-	color: white !important;
+.line {
+	height: 1px;
+	border-top: 1px solid #C9C5BE;
 }
 
-#sidebar *{
-	text-transform: uppercase;
-	font-weight: 300 !important;
-	font-size: 12px;
+.u{
+	border-bottom: 1px solid #C9C5BE;
+	width: max-content;
+	line-height: 20px;
+	/*color: rgb(25, 27, 28) !important;*/
+	color: #297AFE !important;
+}
+
+.h{
+	padding-left: 8px;
+	padding-right: 8px;
 	padding-top: 3px;
 	padding-bottom: 3px;
-	color: #404040;
-	font-weight: 500 !important;
+	border-radius: 3px;
+	font-size: 14px !important;
+	font-family: monospace !important;
+	background-color: #FFCB95;
+	color: #005744 !important;
 }
 
-.sd {
-	padding-right:  -20px;
-	border-left: 1px solid #909090;
+#sidebar{
+	height: 100vh;
+	overflow-y: scroll;
+	background-color: #F7F5F2;
+	border-right: 1px solid #EDE9E3;
 }
 
-.inner2 *{
-	padding-bottom: 4px;
-	padding-top: 4px;
-	color: #808080;
-	font-size: 13px;
+
+#sidebar *{
+	line-height: 30px;
+	font-size: 15px !important;
 }
 
-.page{
-	color: #707070;
+
+.overV *{
+	line-height: 35px !important;
+	font-size: 16px !important;
 }
 
 .sd2{
@@ -80,7 +116,7 @@ code{
 
 
 .tb .flex:nth-child(even) {
-  background: #f2f2f2;
+  background: #F7F5F2;
 }
 
 .tb .flex{
@@ -91,11 +127,11 @@ code{
 }
 
 .border-b{
-	border-bottom: 1px solid rgba(19,48,95, .1);
+	border-bottom: 1px solid #EDE9E3;
 }
 
 .blue{
-	background-color: #13305F;
+	background-color: #0061FE;
 }
 
 .smoky{
@@ -117,26 +153,35 @@ footer{
 	right: 20px;
 }
 
-.toogle *{
-	color: white !important;
-}
-
 .normal *{
 	font-weight: 400 !important;
 }
 
 
+.over{
+	background-color: #F7F5F2;
+}
+
 .overview{
+	top: 45px;
 	left: 0;
-	width: 70vw;
+	right: 0;
+	background-color: #F7F5F2;
+	font-size: 15px !important;
+}
+
+.sd2{
+	background-color: #F7F5F2;
 }
 
 
 .code{
-	background-color: #F2F2F2;
+	background-color: #F7F5F2;
 	line-height: 20px !important;
 	font-family: monospace !important;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.07) inset;
 	font-size: 14px;
+	border-radius: 7px !important;
 }
 
 
@@ -159,10 +204,79 @@ footer{
 	padding-top: 15px;
 	padding-bottom: 15px;
 	border-radius: 5px;
+	background-color: #F7F5F2;
 }
 
 .code-area txt{
 	font-size: 14px !important;
 	font-family: monospace !important;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.07) inset;
+	border-radius: 7px !important;
+}
+
+
+.i{
+	font-family:FontAwesome !important;
+	color: white !important;
+}
+
+.white{
+	color: white !important;
+}
+
+.alert{
+	background-color: rgb(255,203,149);
+	color: #005744;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-left: 15px;
+	border: 1px solid rgba(0, 0, 0, .1);
+}
+
+.alert span{
+	color: #005744 !important;
+}
+
+.bl{
+	border-right: 1px solid #C9C5BE;
+}
+
+.br{
+	border-color: #C9C5BE;
+}
+
+
+.txt{
+	overflow-y: scroll;
+	height: 100vh;
+}
+
+
+@media (max-width: 900px){
+	body{
+		overflow: auto;
+	}
+
+	.txt{
+		overflow: auto;
+		height: auto;
+	}
+
+	nav{
+		right: 0;
+	}
+
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap');
+
+.title{
+	font-family: 'Space Grotesk', sans-serif !important;
+	font-weight: 700 !important;
+	font-size: 25px;
+	color: black !important;
 }
 
